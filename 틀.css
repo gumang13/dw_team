@@ -1,6 +1,6 @@
 *{
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box; /* 패딩 포함 크기 계산 */
 }
 .header{
@@ -9,6 +9,7 @@
     height: 80px;
     background: rgb(17, 17, 17);
     box-sizing: border-box;
+    left: 360px;
     
 }
 .square{
@@ -52,6 +53,7 @@ header ul {
 .body{
     width: 1200px;
     height: 2815px;
+    margin-top: 95px;
 }
 #logo{
     width: 40px;  
@@ -73,6 +75,9 @@ header ul {
     background: rgb(17, 17, 17);
     height: 400px;
     box-sizing: border-box;
+    position: absolute;
+    top: 2815px;
+    left: 360px;
 }
 #footer_team{
     width: 1200px;
@@ -87,4 +92,9 @@ header ul {
     width: 1200px;
     background: rgb(17, 17, 17);
     height: 150px;
+}
+.body{
+    height: 3000px;
+    width: 360px;
+    float: left;
 }
