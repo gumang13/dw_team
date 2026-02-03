@@ -7,7 +7,7 @@
     width: 1200px;
     position: fixed;
     height: 80px;
-    background: rgb(0, 0, 0);
+    background: rgb(17, 17, 17);
     box-sizing: border-box;
     
 }
@@ -15,7 +15,7 @@
 
    width: 1200px;
     padding: 20px;
-    background: rgb(0, 0, 0);
+    background: rgb(17, 17, 17);
     position: relative;
     
     z-index: 1;
@@ -36,7 +36,7 @@ nav>ul>li a{
     color:white;
     width: 200px;
     display: block;
-    background: black;
+    background: rgb(17, 17, 17);
     padding: 10px 80px;
 
 }
@@ -70,7 +70,7 @@ header ul {
 }
 .footer{
     width: 1200px;
-    background: rgb(163, 121, 121);
+    background: rgb(17, 17, 17);
     height: 400px;
     box-sizing: border-box;
 }
@@ -85,6 +85,6 @@ header ul {
 }
 .footer_blank{
     width: 1200px;
-    background: black;
+    background: rgb(17, 17, 17);
     height: 150px;
 }
