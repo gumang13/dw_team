@@ -32,6 +32,11 @@ header>ul>li {
   
    
 }
+.wrap{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
 nav>ul>li a{
     color:white;
     width: 200px;
@@ -50,6 +55,8 @@ header ul {
  
 }
 .body{
+    
+    
     width: 1200px;
     height: 2815px;
 }
@@ -62,6 +69,10 @@ header ul {
     width: 1200px;
     background: rgb(228, 85, 133);
     height: 802px;
+    box-sizing: border-box;
+    padding: 5px;
+    
+    top: 95px;
 }
 .blank{
     width: 1200px;
@@ -69,6 +80,7 @@ header ul {
     background: white;
 }
 .footer{
+    margin-top: 95px;
     width: 1200px;
     background: rgb(17, 17, 17);
     height: 400px;
