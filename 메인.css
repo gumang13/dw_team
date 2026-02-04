@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box; /* 패딩 포함 크기 계산 */
 }
-
+.bg{
+    background: rgb(10, 20, 40);
+}
 .wrap{
     width: 1200px;
     position: relative;
@@ -14,17 +16,15 @@
     width: 1200px;
     position: fixed;
     height: 80px;
-    background: rgb(17, 17, 17);
+    background: rgb(10, 20, 40);
     box-sizing: border-box;
-    
+    z-index: 10;
 }
 .square{
     width: 1200px;
     padding: 20px;
-    background: rgb(17, 17, 17);
+    background: rgb(10, 20, 40);
     position: relative;
-    
-    z-index: 1;
     margin: 0px;
 }
 header>ul>li {
@@ -38,9 +38,10 @@ header>ul>li {
 }
 nav>ul>li a{
     color:white;
-    width: 200px;
+    width: 250px;
     display: block;
-    background: rgb(17, 17, 17);
+    text-decoration: none;
+    background: rgb(10, 20, 40);
     padding: 10px 80px;
 
 }
@@ -61,19 +62,151 @@ header ul {
     height: 50px;  
     object-fit: cover; 
 }
-.main1{
+
+.hero{
+    position: relative;
     width: 1200px;
-    background: rgb(228, 85, 133);
+    height: 900px;
+    overflow: hidden;
+
+    /* 텍스트와 로고 가운데로 가게하는 작업 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.hero-text{
+    position: absolute;
+    z-index: 2;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.playstyle{
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playstyle video{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.playstyle-text{
+    position: absolute;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.playstyle-text p{
+    font-size: 20px;
+}
+
+.playstyle1{
+    padding: 50px;
+    background: rgb(10, 20, 40);
+    text-align: center;
+    color: white;
+}
+.playstyle1-header{
+    margin-bottom: 50px;
+}
+.playstyle1-title{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.playstyle1-description{
+    font-size: 20px;
+}
+.playstyle1-main{
+    display: flex;
+    justify-content: space-between; /* 양쪽 이미지 */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.playstyle1-item{
+    display: flex;
+    flex-direction: column;         /* 이미지 위 텍스트 아래 */
+    align-items: center;
+    width: 48%;
+}
+.playstyle1-img{
+    width: 300px;
+    height: auto;
+}
+.playstyle1-title1{
+    margin: 20px 0; 
+}
+.playstyle1-title2{
+    margin: 20px 0;
+}
+
+.playstyle2{
+    padding: 50px;
+    background: rgb(10, 20, 40);
+    text-align: center;
+    color: white;
+}
+.playstyle2-header{
+    margin-bottom: 50px;
+}
+.playstyle2-title{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.playstyle2-description{
+    font-size: 20px;
+}
+.playstyle2-main{
+    display: flex;
+    justify-content: space-between; /* 양쪽 이미지 */
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.playstyle2-item{
+    display: flex;
+    flex-direction: column;         /* 이미지 위 텍스트 아래 */
+    align-items: center;
+    width: 48%;
+}
+.playstyle2-img{
+    width: 300px;
+    height: auto;
+}
+.playstyle2-title1{
+    margin: 20px 0; 
+}
+.playstyle2-title2{
+    margin: 20px 0;
+}
+
+.main3{
+    width: 1200px;
+    background: rgb(10, 20, 40);
     height: 802px;
 }
 .blank{
     width: 1200px;
     height: 135px;
-    background: white;
+    background: rgb(10, 20, 40);
 }
 .footer{
     width: 1200px;
-    background: rgb(17, 17, 17);
+    background: rgb(10, 20, 40);
     height: 400px;
     box-sizing: border-box;
 }
@@ -88,6 +221,6 @@ header ul {
 }
 .footer_blank{
     width: 1200px;
-    background: rgb(17, 17, 17);
+    background: rgb(10, 20, 40);
     height: 150px;
 }
