@@ -2,6 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; /* 패딩 포함 크기 계산 */
+
+ 
 }
 .header{
     width: 1200px;
@@ -34,9 +36,10 @@ header>ul>li {
 nav>ul>li a{
     color:white;
     width: 250px;
-    display: block;
-    background: rgb(10,20,40);
     padding: 10px 80px;
+    background: rgb(10,20,40);
+    
+   justify-content: center;
     text-decoration: none;
 
 }
@@ -54,11 +57,15 @@ header ul {
     
     width: 1200px;
     height: 6000px;
+     font-family: "Jua", sans-serif;
+  font-weight: 200;
+  font-style: normal;
 }
-#logo{
+.logo{
     width: 40px;  
     height: 50px;  
-    object-fit: cover; 
+    background: url("./검은바탕로고.jpg") no-repeat;
+    background-size: contain;
 }
 
 .blank{
@@ -171,7 +178,9 @@ header ul {
    background-color:transparent;
     height: 200px;
      color: white;
-
+ font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .mainHeroRole{
    background-color:transparent;
@@ -179,4 +188,9 @@ header ul {
      color: white;
      font-size: 30px;
 
+}
+.font1{
+     font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
