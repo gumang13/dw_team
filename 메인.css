@@ -24,7 +24,6 @@
     width: 1200px;
     padding: 20px;
     background: rgb(10, 20, 40);
-    
     margin: 0px;
 }
 header>ul>li {
@@ -39,11 +38,10 @@ header>ul>li {
 nav>ul>li a{
     color:white;
     width: 250px;
-
-    text-decoration: none;
-    background: rgb(10, 20, 40);
     padding: 10px 80px;
+    background: rgb(10, 20, 40);
     justify-content: center;
+    text-decoration: none;
 }
 header ul {
     display: flex;
@@ -64,11 +62,6 @@ header ul {
     height: 50px;  
     background: url("./검은바탕로고.jpg") no-repeat;
     background-size: contain;
-}
-#logo2{
-    width: 40px;  
-    height: 50px;  
-    object-fit: cover; 
 }
 
 
