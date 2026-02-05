@@ -10,15 +10,16 @@
     width: 1200px;
     position: fixed;
     height: 80px;
-    background: rgb(10, 20, 40);
+    background: rgb(10, 20, 40, 1);
     box-sizing: border-box;
+    z-index: 9999;
     
 }
 .square{
 
    width: 1200px;
     padding: 20px;
-    background: rgb(10, 20, 40);
+    background: rgb(10, 20, 40, 1);
     position: relative;
     
     z-index: 1;
@@ -143,6 +144,8 @@ header ul {
   background: rgb(170, 207, 242);
   border-radius: 12px;   
   padding: 20px;
+
+  overflow: hidden;
   
  /* 마우스 올리면 변경되는거 */
    cursor: pointer;
@@ -190,6 +193,7 @@ header ul {
 /*패치 버전 글자색 */
 .h2{
   color: rgb(164, 162, 13);
+  
 }
 /* .a{
   text-decoration: none ;
