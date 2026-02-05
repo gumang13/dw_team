@@ -103,54 +103,52 @@ header ul {
 
 /* ========================업데이트 부분========================= */
 
-/*메인 1 게임 업데이트 대 제목 */
-.Main1{
-   width: 1200px;
-  margin: 0 auto;
-  padding-top: 83px;
-}
-.updates1{
-  width: 1200px;            
-  margin: 0  auto;          /* 가운데 정렬 */
-  background: #102c5c;     
-  padding: 80px 120px;     /* 안쪽 여백 */
-  color: white;
-  font-style: italic;
-}
 
 /*업데이트 내용 전체 */
 #up{
   width: 1200px;
+  display: flex;
+  gap :20px;
+  flex-wrap:wrap ;
+  justify-content: space-evenly;
+  
   margin: 0 auto;
-    background: #466cad;
+  background: #466cad;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-/*각 메인 1, 2, 3*/
-.main123{
-  width: 1200px;
-  margin-top: 0;
+
+/*메인 1 게임 업데이트 대 제목 */
+
+.Main1{
+   width: 100%;
+   margin: 0 auto;
+   padding-top: 80px;
 }
 
-/*패치 노트 3줄 가운데 정렬*/
-.path{ 
-  text-align: center;
+/* 대 제목 아래 글 */
+.updates1{
+  width: 1200px;            
+  margin: 0  auto;          
+  background: #102c5c;     
+  padding: 80px 120px;     
+  color: white;
+  font-style: italic;
 }
 
 /*패치 노트 대표 이미지 하늘색 카드*/
 .card{
-  width: 560px;
-  display: inline-block; /* 옆으로 배치 */
-  margin: 18px;      
-  margin-bottom: 18px;
+  width: 540px;
   background: rgb(170, 207, 242);
-  border-radius: 12px;   /*모서리*/
+  border-radius: 12px;   
   padding: 20px;
-  vertical-align: top; /*카드 높이가 달라도 위쪽 기준 맞추기 도움받음*/
   
-  /* 살짝 떠오르게 하는거 */
-  /* cursor: pointer;
-  transition: all 0.2s ease; */
+ /* 마우스 올리면 변경되는거 */
+   cursor: pointer;
+  transition: all 0.2s ease;
 }
+
 /* 살짝 떠오르기 하는거 */
 /* .card:hover {
   transform: translateY(-6px);   
@@ -166,22 +164,33 @@ header ul {
   display: block;
   margin-bottom: 5px;  
 }
-/*패치 날짜 폰트*/
-.span{
-    font-size: 14px;
-    font-weight: bold; /*글자 기울기*/
-    color: rgb(0, 0, 0);
-    
-    position: absolute;
-    right: 0px;
-    top: 5px;
+/*패치 노트 3줄 가운데 정렬*/
+.path{ 
+  text-align: center;
+  color: rgb(0, 0, 0);
 }
-/*패치 버전 폰트 위치 */
-.h2{
-    position: relative;
-    color: rgb(164, 162, 13);
-}
+
+/*패치 버전 및 날짜 부모 태그*/
 .ver{
   position: relative;
   width: 520px;
 }
+
+/*패치 날짜 폰트*/
+.span{
+    font-size: 14px;
+    font-weight: bold; /*글자 굵기*/
+    color: rgb(0, 0, 0);
+    
+    position: absolute;
+    right: 25px;
+    top: 5px;
+}
+
+/*패치 버전 글자색 */
+.h2{
+  color: rgb(164, 162, 13);
+}
+/* .a{
+  text-decoration: none ;
+} */
