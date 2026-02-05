@@ -80,6 +80,18 @@ header ul {
     height: 400px;
     box-sizing: border-box;
 }
+.flex{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.footer_logo{
+    background: url("./라이엇로고하단.png") no-repeat;
+    height: 100px;
+    width: 250px;
+    background-size: cover;
+
+}
 #footer_team{
     width: 1200px;
     color: white;
@@ -179,7 +191,7 @@ header ul {
     height: 200px;
      color: white;
  font-family: "Nanum Gothic", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
 }
 .mainHeroVoice{
@@ -192,10 +204,11 @@ header ul {
     height: 60px;
      color: white;
      font-size: 40px;
+   
 
 }
 .font1{
      font-family: "Nanum Gothic", sans-serif;
-  font-weight: 400;
+  font-weight: 200;
   font-style: normal;
 }

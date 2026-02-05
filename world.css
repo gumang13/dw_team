@@ -1,10 +1,27 @@
 body {
   background-color: rgb(10, 20, 40);
+  /*
+      font-family: "Jua", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+
+  */
 }
 * {
+  
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; /* 패딩 포함 크기 계산 */
+}
+.body{
+  font-family: "Jua", sans-serif;
+      font-weight: 200;
+      font-style: normal;
 }
 .base {
   margin: auto;
@@ -143,6 +160,9 @@ header ul {
   font-size: 20px;
   color: rgb(224, 224, 224);
   text-align: center;
+   font-family: "Nanum Gothic", sans-serif;
+      font-weight: 300;
+      font-style: normal;
 }
 .titleBox2 {
   box-sizing: border-box;
@@ -184,6 +204,9 @@ header ul {
   font-weight: 500;
   color: rgb(141, 22, 22);
   text-align: center;
+   font-family: "Nanum Gothic", sans-serif;
+      font-weight: 400;
+      font-style: normal;
 }
 .titleBox3 {
   box-sizing: border-box;
@@ -224,8 +247,45 @@ header ul {
   font-size: 20px;
   color: #e9437a;
   text-align: center;
+   font-family: "Nanum Gothic", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+}
+.footer{
+    
+    width: 1200px;
+    background: rgb(10, 20, 40);
+    height: 250px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.flex{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.footer_logo{
+    background: url("./라이엇로고하단.png") no-repeat;
+    height: 100px;
+    width: 250px;
+    background-size: cover;
+
 }
 #footer_team {
+  
   color: white;
   text-align: center;
+}
+.footer_blank{
+    width: 1200px;
+    background: rgb(10, 20, 40);
+    height: auto;
+}
+.footer_text{
+   font-family: "Nanum Gothic", sans-serif;
+      font-weight: 200;
+      font-style: normal;
 }

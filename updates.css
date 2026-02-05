@@ -83,8 +83,20 @@ header ul {
 .footer{
     width: 1200px;
     background: rgb(10, 20, 40);
-    height: 200px;
+    height: 400px;
     box-sizing: border-box;
+}
+.flex{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
+.footer_logo{
+    background: url("./라이엇로고하단.png") no-repeat;
+    height: 100px;
+    width: 250px;
+    background-size: cover;
+
 }
 #footer_team{
     width: 1200px;
