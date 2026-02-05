@@ -43,7 +43,7 @@ nav>ul>li a{
     text-decoration: none;
     background: rgb(10, 20, 40);
     padding: 10px 80px;
-   justify-content: center;
+    justify-content: center;
 }
 header ul {
     display: flex;
@@ -55,9 +55,9 @@ header ul {
 }
 .body{
     width: 1200px;
-      font-family: "Jua", sans-serif;
-  font-weight: 200;
-  font-style: normal;
+    font-family: "Jua", sans-serif;
+    font-weight: 200;
+    font-style: normal;
 }
 .logo{
     width: 40px;  
@@ -93,14 +93,22 @@ header ul {
     position: absolute;
     z-index: 2;         /* 비디오 위에 표시 */
     font-size: 30px;
-    
     color: white;
     text-align: center;
     font-family: "Nanum Gothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
+
+.title{
+    margin: 20px 0;
+}
+.description{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
 
 
 .playstyle{
@@ -129,10 +137,22 @@ header ul {
 .playstyle-text p{
     font-size: 20px;
     font-family: "Nanum Gothic", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-weight: 400;
+    font-style: normal;
 }
 
+
+
+.playstyle-title{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.playstyle-description{
+    font-size: 20px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+}
 
 
 .playstyle1{
@@ -143,18 +163,6 @@ header ul {
 }
 .playstyle1-header{
     margin-bottom: 50px;
-}
-.playstyle1-title{
-    font-size: 60px;
-    margin-bottom: 15px;
-    font-weight: 900;
-}
-.playstyle1-description{
-    font-size: 20px;
-    font-family: "Nanum Gothic", sans-serif;
-  font-weight: 250;
-  font-style: normal;
-  
 }
 .playstyle1-main{
     display: flex;
@@ -172,17 +180,9 @@ header ul {
     width: 300px;
     height: auto;
 }
-.playstyle1-title1{
-    margin: 20px 0; 
-}
-.playstyle1-title2{
-    margin: 20px 0;
-}
-.playstyle1-description1{
-font-family: "Nanum Gothic", sans-serif;
-  font-weight: 250;
-  font-style: normal;
-}
+
+
+
 .playstyle2{
     padding: 50px;
     background: rgb(10, 20, 40);
@@ -191,14 +191,6 @@ font-family: "Nanum Gothic", sans-serif;
 }
 .playstyle2-header{
     margin-bottom: 50px;
-}
-.playstyle2-title{
-    font-size: 60px;
-    margin-bottom: 15px;
-    font-weight: 900;
-}
-.playstyle2-description{
-    font-size: 20px;
 }
 .playstyle2-main{
     display: flex;
@@ -215,12 +207,6 @@ font-family: "Nanum Gothic", sans-serif;
 .playstyle2-img{
     width: 300px;
     height: auto;
-}
-.playstyle2-title1{
-    margin: 20px 0; 
-}
-.playstyle2-title2{
-    margin: 20px 0;
 }
 
 
@@ -275,12 +261,11 @@ font-family: "Nanum Gothic", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-   
-    
 }
-.h{font-family: "Nanum Gothic", sans-serif;
-  font-weight: 250;
-  font-style: normal;}
+.h{
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 250;
+    font-style: normal;}
 .footer_blank{
     width: 1200px;
     background: rgb(10, 20, 40);
