@@ -245,7 +245,7 @@ header ul {
   position: absolute;
   padding: 30px;
   font-size: 20px;
-  color: #e9437a;
+  color: #c42057;
   text-align: center;
    font-family: "Nanum Gothic", sans-serif;
       font-weight: 300;
@@ -274,8 +274,14 @@ header ul {
     background-size: cover;
 
 }
+.footer_wrap{
+  height: 200px;
+  width: 500px;
+  margin: 0px auto;
+}
 #footer_team {
-  
+  width: 400px;
+  font-size: 25px;
   color: white;
   text-align: center;
 }
