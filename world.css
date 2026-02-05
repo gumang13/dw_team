@@ -87,6 +87,7 @@ header ul {
   background-size: cover;
   width: 1200px;
   height: 800px;
+  padding: 20px;
   bottom: 0px;
 }
 .textWrap2 {
@@ -113,7 +114,10 @@ header ul {
   height: 120px;
   width: 600px;
   position: absolute;
-  top: 0px;
+  top: 35px;
+  left: 25px;
+  box-shadow:0px 0px 15px 15px rgba(136, 121, 39, 0.377);
+  background-color: rgba(136, 121, 39, 0.377);
 }
 .titleBox1-1 {
   box-sizing: border-box;
@@ -138,23 +142,26 @@ header ul {
   box-sizing: border-box;
   height: 380px;
   width: 600px;
-  left: 0px;
-  bottom: 0px;
+  left: 25px;
+  bottom: 25px;
   position: absolute;
   padding: 30px;
   font-size: 14px;
-  color: rgb(255, 255, 255);
+  color: rgb(224, 224, 224);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 15px 15px rgba(136, 121, 39, 0.377);
+  background-color: rgba(136, 121, 39, 0.377);
 }
 .titleBox2 {
   box-sizing: border-box;
   height: 120px;
   width: 600px;
   position: absolute;
-  right: 0px;
-  top: 0px;
+  right: 25px;
+  top: 25px;
   text-align: center;
+  box-shadow: 0px 0px 15px 15px  #572d2d83 ;
+  background-color: #572d2d83;
 }
 .titleBox2-1 {
   box-sizing: border-box;
@@ -179,22 +186,26 @@ header ul {
   box-sizing: border-box;
   height: 380px;
   width: 600px;
-  right: 0px;
-  bottom: 0px;
+  right: 25px;
+  bottom: 25px;
   position: absolute;
   padding: 30px;
   font-size: 14px;
-  color: rgb(221, 58, 58);
+  color: rgb(219, 46, 46);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 0px 15px 15px  #572d2d83 ;
+  background-color: #572d2d83;
 }
 .titleBox3 {
   box-sizing: border-box;
   height: 120px;
   width: 600px;
   position: absolute;
-  top: 0px;
+  top: 25px;
+  left: 25px;
   text-align: center;
+  box-shadow: 0px 0px 15px 15px  #02524880;
+  background-color: #02524880;
 }
 .titleBox3-1 {
   box-sizing: border-box;
@@ -219,14 +230,15 @@ header ul {
   box-sizing: border-box;
   height: 380px;
   width: 600px;
-  left: 0px;
-  bottom: 0px;
+  left: 25px;
+  bottom: 25px;
   position: absolute;
   padding: 30px;
   font-size: 14px;
-  color: #cb7894;
+  color: #e27c9e;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.39);
+  box-shadow: 0px 0px 15px 15px  #02524880;
+  background-color: #02524880;
 }
 #footer_team{
   color: white;
