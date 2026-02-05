@@ -20,6 +20,7 @@ body{
     background: rgb(10,20,40);
     box-sizing: border-box;
     z-index: 999;
+    
 }
 .square{
    width: 1200px;
