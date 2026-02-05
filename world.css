@@ -12,16 +12,6 @@ body {
   height: 3000px;
   background-color: rgb(10, 20, 40);
 }
-<<<<<<< HEAD
-.header{
-    width: 1200px;
-    position: fixed;
-    height: 80px;
-    background: rgb(10,20,40);
-    box-sizing: border-box;
-    z-index: 999;
-    
-=======
 .header {
   width: 1200px;
   position: fixed;
@@ -29,7 +19,6 @@ body {
   background: rgb(10, 20, 40);
   box-sizing: border-box;
   z-index: 999;
->>>>>>> 5401eb5182aa784cac39423352441357f30f1305
 }
 .square {
   width: 1200px;
