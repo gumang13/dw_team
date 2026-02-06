@@ -210,3 +210,9 @@ header ul {
 /* .a{
   text-decoration: none ;
 } */
+
+.footer_font{
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
